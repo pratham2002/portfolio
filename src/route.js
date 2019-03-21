@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import AboutMePage from './components/AboutMe';
 import ContactPage from './components/contact';
-import ProjectsPage from './components/projects';
+import ProjectsPage from './components/Projects';
 import ResumePage from './components/resume';
 
 const Main = () => (

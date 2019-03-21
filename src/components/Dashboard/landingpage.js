@@ -7,7 +7,7 @@ const LandingPage = () => (
         <Grid className="landing-grid">
             <Cell col={3}>
                 <img
-                    src="https://cdn0.iconfinder.com/data/icons/avatar-2/500/man-2-512.png"
+                    src="https://cdn1.iconfinder.com/data/icons/data-science-1-1/512/20-512.png"
                     alt="img-avatar"
                     className="img-avatar"
                 />
@@ -19,15 +19,15 @@ const LandingPage = () => (
                     <p>JavaScript | HTML/CSS | React | NodeJS | Express</p>
                     <div className="social-links">
                         {/* Github  */}
-                        <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/riteshf" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-github-square" aria-hidden="true" />
                         </a>
                         {/* LinkedIn */}
-                        <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/riteshfirodiya/" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-linkedin-square" aria-hidden="true" />
                         </a>
                         {/* Facebook */}
-                        <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/ritesh.firodiya.58" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-facebook-square" aria-hidden="true" />
                         </a>
                     </div>
