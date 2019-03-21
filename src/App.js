@@ -9,7 +9,7 @@ import { Layout, Header, Navigation, Content } from 'react-mdl';
 const App = () => (
   < div className="demo-big-content" >
     <Layout>
-      <Header title={<a href="/" style={{textColor:'white'}}>Ritesh Firodiya</a>} scroll className="header-color">
+      <Header title={<a href="#/" style={{textColor:'white'}}>Ritesh Firodiya</a>} scroll className="header-color">
         <Navigation>
           <Link to="/resume">Resume</Link>
           <Link to="/aboutme">About Me</Link>
