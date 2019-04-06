@@ -1,32 +1,83 @@
 import React, { useState } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
-import ReactProjects from './ReactProjects';
+import RFCard from '../../Views/RFCard'
 import './style.css';
 
+const projects = {
+    'React': [
+        {
+            style: { minWidth: '450', margin: 'auto' },
+            cardTitle: {
+                style: { color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXQWR1h2Dzvwrwd4Fmb39hAp1HrgDVz8SPGn0TBaQxgmiIE4jM) center/ cover' },
+                body: "My Portfolio Site"
+            },
+            cardText: {
+                "body": "A portfolio project created in react."
+            },
+            acctionButtons: ['Github'],
+            cardMenu: {
+                style: { color: '#fff' }
+            }
+        }
+    ],
+    'AngularJS': [],
+    'NodeJS': [],
+    'JavaScript': []
+};
 
 function Projects() {
     const [activeTab, setActiveTab] = useState(0);
-    
+
     function toggleCategories() {
         if (activeTab === 0) {
             return (
-                <div className="projects-grid">
-                    <ReactProjects />
-                    <ReactProjects />
-                </div>
+                <>
+                    {projects['React'].map(projectCard =>
+                        <div className="projects-grid">
+                            <RFCard card={projectCard} />
+                        </div>
+                    )}
+                </>
             )
         } else if (activeTab === 1) {
             return (
-                <div className="projects-grid">
-                    <h1>Javascript</h1>
-                </div>
+                <>
+                    {projects['JavaScript'].map(projectCard =>
+                        <div className="projects-grid">
+                            <RFCard card={projectCard} />
+                        </div>
+                    )}
+                </>
             )
         } else if (activeTab === 2) {
-            return (<div className="projects-grid"><h1>NodeJS</h1></div>)
+            return (
+                <>
+                    {projects['NodeJS'].map(projectCard =>
+                        <div className="projects-grid">
+                            <RFCard card={projectCard} />
+                        </div>
+                    )}
+                </>)
         } else if (activeTab === 3) {
-            return (<div className="projects-grid"><h1>AngularJs</h1></div>)
+            return (
+                <>
+                    {projects['AngularJS'].map(projectCard =>
+                        <div className="projects-grid">
+                            <RFCard card={projectCard} />
+                        </div>
+                    )}
+                </>
+            )
         } else {
-            return (<div><h1>Projects not added yet</h1></div>)
+            return (
+                <>
+                    {projects['React'].map(projectCard =>
+                        <div className="projects-grid">
+                            <RFCard card={projectCard} />
+                        </div>
+                    )}
+                </>
+            )
         }
     }
 
@@ -36,7 +87,7 @@ function Projects() {
                 <Tab>React</Tab>
                 <Tab>JavaScript</Tab>
                 <Tab>NodeJS</Tab>
-                <Tab>AngularJs</Tab>
+                <Tab>AngularJS</Tab>
             </Tabs>
             <Grid>
                 <Cell col={12}>
