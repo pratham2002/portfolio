@@ -39,9 +39,9 @@ const Resume = () => (
                             <h6>2017 - current</h6>
                         </Cell>
                         <Cell col={9}>
-                        <h6>Confluxsys Private Limited, Pune</h6>
-                            <p>A private orginization oriented towards building software products for security management, 
-                                with a small team of around 30+ members, helped me expand my horizon over professional and 
+                            <h6>Confluxsys Private Limited, Pune</h6>
+                            <p>A private orginization oriented towards building software products for security management,
+                                with a small team of around 30+ members, helped me expand my horizon over professional and
                                 trending technologies to build reliable solutions to adhere with customer needs.
                             </p>
                         </Cell>
@@ -65,9 +65,9 @@ const Resume = () => (
                         </Cell>
                         <Cell col={9}>
                             <h6>Vishwakerma Institue of Technology, Pune</h6>
-                            <p>Jr. College, where I was fort eh first time introducted to HTML and CSS, and ended up rooting
-                                me in web development. A life full of adventure and awesome friends that always do the most craziest things you could imagine,
-                                still alive!.
+                            <p>Jr. College, where for the first time, I was introducted to HTML and CSS, and ended up rooting
+                                me in web development industry.
+                                A life full of adventure and awesome friends that always do the most craziest things you could imagine,
                             </p>
                         </Cell>
                         <Cell col={3}>
