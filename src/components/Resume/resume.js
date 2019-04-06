@@ -23,7 +23,7 @@ const grids = {
         },
         {
             year: '2011 - 2013',
-            name: 'Vishwakerma Institue of Technology, Pune',
+            name: 'Vishwakarma Institue of Technology, Pune',
             description: `Jr. College, where for the first time, I was introducted to HTML and CSS, and ended up rooting
                 me in web development industry.
                 A life full of adventure and awesome friends that always do the most craziest things you could imagine`
