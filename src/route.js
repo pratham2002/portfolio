@@ -5,7 +5,7 @@ import Dashboard from './components/Dashboard';
 import AboutMePage from './components/AboutMe';
 import ContactPage from './components/contact';
 import ProjectsPage from './components/Projects';
-import ResumePage from './components/resume';
+import ResumePage from './components/Resume';
 
 const Main = () => (
     <Switch>
