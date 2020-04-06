@@ -1,18 +1,18 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
 
-import Dashboard from './components/Dashboard';
-import AboutMePage from './components/AboutMe';
-import ProjectsPage from './components/Projects';
-import ResumePage from './components/Resume';
+import Dashboard from "./views/Dashboard";
+import AboutMePage from "./views/AboutMe";
+import ProjectsPage from "./views/Projects";
+import ResumePage from "./views/Resume";
 
 const Main = () => (
-    <Switch>
-        <Route exact path="/" component={Dashboard}> </Route>
-        <Route path="/aboutme" component={AboutMePage}> </Route>
-        <Route path="/projects" component={ProjectsPage}> </Route>
-        <Route path="/resume" component={ResumePage}> </Route>
-    </Switch>
-)
+  <Switch>
+    <Route exact path="/" component={Dashboard} />
+    <Route path="/aboutme" component={AboutMePage} />
+    <Route path="/projects" component={ProjectsPage} />
+    <Route path="/resume" component={ResumePage} />
+  </Switch>
+);
 
 export default Main;
